@@ -29,6 +29,15 @@
   <p>{{ message }}</p>
   <input v-model="message">
   </div>
+  
+  <div id="app-7">
+  <app-nav></app-nav>
+  <app-view>
+    <app-sidebar></app-sidebar>
+    <app-content></app-content>
+  </app-view>
+  </div>
+  
   <script>
     var app = new Vue({
       el: '#app',
