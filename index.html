@@ -5,9 +5,7 @@
   <script src="https://unpkg.com/vue"></script>
 </head>
 <body>
-  
-  
-  
+   
   <div id="app">
     {{ message }}
   </div>
@@ -28,14 +26,6 @@
   <div id="app-6">
   <p>{{ message }}</p>
   <input v-model="message">
-  </div>
-  
-  <div id="app-7">
-  <app-nav></app-nav>
-  <app-view>
-    <app-sidebar></app-sidebar>
-    <app-content></app-content>
-  </app-view>
   </div>
   
   <script>
@@ -71,17 +61,6 @@
   el: '#app-6',
   data: {
     message: 'Hello Vue!'
-  }
-  })
-  
-  var app7 = new Vue({
-  el: '#app-7',
-  data: {
-    groceryList: [
-      { id: 0, text: 'Vegetables' },
-      { id: 1, text: 'Cheese' },
-      { id: 2, text: 'Whatever else humans are supposed to eat' }
-    ]
   }
   })
   
